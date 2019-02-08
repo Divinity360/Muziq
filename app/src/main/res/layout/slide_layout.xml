@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/myicon"
+        android:layout_width="142dp"
+        android:layout_height="143dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="83dp"
+        app:srcCompat="@drawable/search" />
+
+    <TextView
+        android:id="@+id/myHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/myicon"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="Search for MUSIQ all over the world."
+        android:textColor="#fff"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/myDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/myHeading"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Lorem ipsum nbure beb ihiuuif lopui vrfeu ufuew
+bfdhbfdnb  e nb ejbjuwiuhiufw uvwjnhiwcv iuwc uw uwbhcw cwbcuewb"
+        android:textColor="#fff"
+        android:textSize="17dp" />
+
+</RelativeLayout>

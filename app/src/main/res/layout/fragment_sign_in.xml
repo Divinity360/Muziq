@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_sign_up_img4"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/sign_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/rajdhanibold"
+        android:text="SIGN IN"
+        android:textColor="@android:color/background_light"
+        android:textSize="26dp" />
+
+    <EditText
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/sign_in"
+        android:layout_alignLeft="@+id/sign_in"
+        android:layout_below="@+id/sign_in"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="@android:color/background_light"
+        android:hint="Username"
+        android:textColorHint="@android:color/background_light"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/sign_in"
+        android:layout_alignLeft="@+id/sign_in"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="@android:color/background_light"
+        android:hint="Password"
+        android:textColorHint="@android:color/background_light"
+        android:textSize="15sp" />
+
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/rajdhanibold"
+        android:layout_marginTop="30dp"
+        android:text="SIGN IN"
+        android:textColor="@color/btn_sign_up"
+        android:textSize="17dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/or"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@id/btn_register"
+        android:layout_centerHorizontal="true">
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="50dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="or"
+            android:textColor="@color/colorWhite"
+            android:layout_marginLeft="4dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginEnd="4dp"/>
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="50dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorWhite" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_fb"
+        android:layout_width="230dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/or"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:text="Continue with Facebook"
+        android:textColor="@color/btn_sign_up"
+        android:textSize="13dp"
+        android:drawableLeft="@drawable/fb_icon2"/>
+
+    <TextView
+        android:id="@+id/av_acct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account?"
+        android:textSize="12dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        android:layout_below="@id/btn_fb"
+        android:textColor="@color/colorWhite"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="220dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/av_acct"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_acct_btn"
+        android:text="REGISTER"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="@font/rajdhanibold"
+        android:textSize="17dp" />
+
+</RelativeLayout>
