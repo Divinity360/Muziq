@@ -4,7 +4,7 @@
 ---
 
 <h1 id="muziq">MUZIQ</h1>
-<p>MUZIQ Music Platform</p>
+<p>MUZIQ is a sophisticated music platform created by Divinity - The Code Lord ( Divine Chiedozie ) used by <a href="http://ALLMUZIQ.COM">ALLMUZIQ.COM</a></p>
 <p><strong>Coming to</strong><br>
 <img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" height="90px/"></p>
 <h2 id="screenshots">Screenshots</h2>
@@ -12,7 +12,7 @@
 <img src="https://lh3.googleusercontent.com/APTmBoQeBO8al7xwiI9NfwQ9YQw_lP2as1O_-tCH3TbaHmUHCl4nAVPeve8GNECrsnkDR4OhJFUp" alt="MUZIQ Player 1" title="Muziq Player"><br>
 <img src="https://lh3.googleusercontent.com/e-oumnpvMWhKTgSIg68fT7IgzDFjastByRPX5ZJcc2okZH3QjI5mlMqFst9mKA8dInNj3-X1SvFo" alt="MUZIQ Sign Up" title="MUZIQ Sign Up"><br>
 <img src="https://lh3.googleusercontent.com/yTXZt_1pa_u_dqJ9k-OU41CbsTx8BgyaVIfU8DiHKoAsK7K_-_tv8Dazbi_mMi4liatjEQxqe8lN" alt="MUZIQ Settings" title="Settings"><br>
-<img src="https://lh3.googleusercontent.com/H2Uu8l2BMR-t4ras4qzBhNAJP-yCCyMZ0ppgr72N_JCotAVXlWstmGS1QHTMwsm2-fZZbZT8LkrE" alt="MUZIQ Round Player" title="MUZIQ Round Player"></p>
+<img src="https://lh3.googleusercontent.com/H2Uu8l2BMR-t4ras4qzBhNAJP-yCCyMZ0ppgr72N_JCotAVXlWstmGS1QHTMwsm2-fZZbZT8LkrE" alt="MUZIQ Round Player" title="MUZIQ Round SeekBar"></p>
 <h2 id="features">Features</h2>
 <ul>
 <li>Material design</li>
@@ -40,9 +40,6 @@
 <li><a href="https://github.com/devadvance/circularseekbar">CircularSeekBar</a></li>
 <li><a href="https://github.com/tajchert/Nammu">Nammu</a></li>
 </ul>
-<h1 id="donate">Donate</h1>
-<p>Paypal donation email-<br>
-<a href="mailto:namandwivedi14@gmail.com">namandwivedi14@gmail.com</a></p>
 <h2 id="license">License</h2>
 <blockquote>
 <p>© 2018 Divine Chiedozie</p>
