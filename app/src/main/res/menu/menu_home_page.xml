@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_downloads"
+        android:orderInCategory="50"
+        android:title="@string/menu_sort_by"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_downloads_24px"/>
+
+    <item
+        android:id="@+id/menu_notification"
+        android:orderInCategory="50"
+        android:title="@string/menu_sort_by"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_notification_24px_3"/>
+
+</menu>

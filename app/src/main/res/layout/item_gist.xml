@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gistLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:src="@drawable/ic_empty_music2"/>
+
+    <TextView
+        android:id="@+id/gistTitle"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/thumbnail"
+        android:layout_marginLeft="12dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/gistDesc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gistTitle"
+        android:layout_alignLeft="@id/gistTitle"
+        android:paddingTop="3dp"
+        android:maxLines="2"
+        android:text="Gist Loading..."
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/gistDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:text="Gist Loading..."
+        android:alpha="0"
+        android:textSize="18sp" />
+
+</RelativeLayout>
